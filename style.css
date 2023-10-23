@@ -1,0 +1,62 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+}
+
+.colcontainer {
+    justify-content: center;
+    width: 60%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex; /* Establece el contenedor del encabezado como un flexbox */
+    align-items: center; /* Alinea elementos verticalmente al centro */
+}
+
+
+.left, .right {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px; /* Ajusta el ancho de tu logo según tus necesidades */
+}
+
+.search-bar input {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+.search-bar img {
+    width: 20px; /* Ajusta el ancho de la flecha según tus necesidades */
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff; /* Cambia el color del texto según tus preferencias */
+}
