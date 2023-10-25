@@ -19,9 +19,14 @@ body {
 }
 
 .barra {
-    background-color: aquamarine;
+    background-color: rgb(127, 255, 212);
     width: 100%;
-    height: 100px
+    height: 75px;
+    border-radius: 5px;
+}
+.barra img {
+    width: 80px;
+    height: 75px;
 }
 
 .barra2 {
@@ -64,12 +69,12 @@ body {
 
 .col {
     background-color: rgb(255, 255, 255);
-    width: 60%;
+    width: 65%;
     height: 110px;
     display: flex;
     align-items: center;
     color: #fff; /* Color del texto */
-    border: 2px solid darkgray; /* Ancho y color del borde */
+    border: 1px solid darkgray; /* Ancho y color del borde */
 }
 .col h1 {
     margin: 50px;
@@ -79,14 +84,14 @@ body {
 }
 
 .col1 {
-    width: 700px;
+    width: 35%;
     background-color: rgb(255, 255, 255);
     height: 110px;
     justify-content: center;
     display: flex;
     align-items: center;
     color: #fff; /* Color del texto */
-            border: 2px solid darkgray; /* Ancho y color del borde */
+            border: 1px solid darkgray; /* Ancho y color del borde */
 }
 
 .col1 button {
@@ -106,9 +111,9 @@ body {
 .col2 {
     background-color: rgb(255, 255, 255);
     width: 25%;
-    height: 400px;
+    height: 410px;
     color: #fff; /* Color del texto */
-            border: 2px solid darkgray; /* Ancho y color del borde */
+            border: 1px solid darkgray; /* Ancho y color del borde */
     justify-content: center;
 }
 
@@ -124,7 +129,7 @@ body {
 .col2 img {
     width: 30px;
     height: 30px;
-    padding: 15px;
+    padding: 10px;
 }
 .col2 p {
     color: black;
@@ -134,7 +139,7 @@ body {
 .caja {
     width: 100%;
     height: 200px;
-    background-color: aquamarine;
+    background-color: rgba(127, 255, 212, 0);
 }
 
 .caja img {
@@ -147,7 +152,7 @@ body {
 .caja1 {
     width: 100%;
     height: 200px;
-    background-color: aquamarine;
+    background-color: rgba(127, 255, 212, 0);
 }
 
 .caja1 img {
@@ -160,7 +165,7 @@ body {
 .caja2 {
     width: 100%;
     height: 200px;
-    background-color: aquamarine;
+    background-color: rgba(127, 255, 212, 0);
 }
 
 .caja2 img {
@@ -169,10 +174,12 @@ body {
     height: 173px;
 }
 
+
+
 .caja3 {
     width: 100%;
     height: 250px;
-    background-color: aquamarine;
+    background-color: rgba(127, 255, 212, 0);
 }
 
 .caja3 img {
@@ -202,6 +209,7 @@ body {
 
 .navbar2 li {
     margin: 10px;
+
 }
 
 .navbar2 a {
@@ -214,10 +222,107 @@ body {
 }
 
 span {
-    color: blue;
+    color: rgb(0, 208, 255);
 }
 
 .colnav {
     background-color: #333;
     width: 100%;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    padding: 32px;
+}
+
+.botones button {
+    justify-content: center;
+    background-color: rgb(65, 180, 221);
+    width: 240px;
+    height: 45px;
+    border: 1px solid rgb(65, 180, 221); /* Ancho y color del borde */
+    color: white;
+    border-radius: 6px;
+}
+
+.botones1 {
+    display: flex;
+    justify-content: center;
+    padding: 15px ;
+}
+
+.botones1 button {
+    justify-content: center;
+    background-color: rgb(65, 180, 221);
+    width: 240px;
+    height: 45px;
+    border: 1px solid rgb(65, 180, 221); /* Ancho y color del borde */
+    color: white;
+    border-radius: 6px;
+}
+
+.botones2 {
+    display: flex;
+    justify-content: center;
+    padding: 15px ;
+}
+
+.botones2 button {
+    justify-content: center;
+    background-color: rgb(65, 180, 221);
+    width: 240px;
+    height: 45px;
+    border: 1px solid rgb(65, 180, 221); /* Ancho y color del borde */
+    color: white;
+    border-radius: 6px;
+}
+
+.botones3 {
+    display: flex;
+    justify-content: center; 
+    padding: 19px ;
+    
+    
+}
+
+.botones3 button {
+    justify-content: center;
+    background-color: rgb(64, 181, 224);
+    width: 240px;
+    height: 45px;
+    border: 1px solid rgb(65, 180, 221); /* Ancho y color del borde */
+    color: white;
+    border-radius: 6px;
+    
+}
+
+.espacio {
+    width: 1139px;
+    background-color: white;
+    height: 60px;
+    color: #fff; /* Color del texto */
+    border: 1px solid darkgray; /* Ancho y color del borde */
+    
+}
+
+.raw4 {
+    display: flex;
+}
+
+.col4 {
+    background-color: rgb(255, 255, 255);
+    width: 16.7%;
+    height: 250px;
+}
+
+.col4 h3 {
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+}
+
+.col4 p {
+    color: darkgray;
+    margin: 10px;
 }
