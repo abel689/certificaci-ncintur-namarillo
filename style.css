@@ -18,15 +18,49 @@ body {
     margin: 10px;
 }
 
-.barra {
-    background-color: rgb(127, 255, 212);
-    width: 100%;
-    height: 75px;
+/* Estilos para la barra de navegación */
+.navbar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #acacac; 
+    display: flex;
+    align-items: center;
+    height: 80px;
+    border-radius: 5px  ;
+}
+
+.navbar li a  {
+    padding: 27px;
+    font-size: 20px;
+    color: #000000; /* Color del texto */
+    border: 1px solid rgb(140, 140, 140); /* Ancho y color del borde */
+    text-decoration: none;
+
+}
+
+.navbar img {
+    width: 85px;
+    height: 78px;
     border-radius: 5px;
 }
-.barra img {
-    width: 80px;
-    height: 75px;
+
+.search-bar {
+    display: flex;
+}
+
+.search-bar input {
+    height: 25px;
+    border-radius: 10px;
+    color: #000000; /* Color del texto */
+    border: 1px solid rgb(140, 140, 140); /* Ancho y color del borde */
+}
+
+.search-bar img {
+    height: 30px;
+    width: 30px;
+    margin-left: -8px;
+    margin-top: -1px;
 }
 
 .barra2 {
@@ -326,3 +360,14 @@ span {
     color: darkgray;
     margin: 10px;
 }
+
+.margen-izq{
+    margin-left: 250px;
+}
+
+.lp p {
+    color: gray;
+    font-size: 12px;
+}
+
+
